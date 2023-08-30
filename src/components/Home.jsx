@@ -19,17 +19,17 @@ const Home = () => {
                     developing responsive front-end designs of web applications.
                 </p>
                 <div>
-                    <button
-                        className="text-white border-2 px-6 group py-3 my-2 flex items-center hover:bg-[#FE904C]
+                    <Link to="work" smooth={true} duration={500}>
+                        <button
+                            className="text-white border-2 px-6 group py-3 my-2 flex items-center hover:bg-[#FE904C]
                      hover:border-[#FE904C] rounded-lg"
-                    >
-                        <Link to="work" smooth={true} duration={500}>
+                        >
                             View Work
-                            <span className=" group-hover:rotate-90 duration-300">
+                            <span className="group-hover:rotate-90 duration-300">
                                 <HiArrowNarrowRight className="ml-3 " />
                             </span>
-                        </Link>
-                    </button>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
