@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
-import Resume from "../assets/QasimCV.pdf";
+import Resume from "../assets/CV.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
