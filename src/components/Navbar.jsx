@@ -112,6 +112,7 @@ const Navbar = () => {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href="https://www.linkedin.com/in/qasim-roy-061291178/"
+                            target="_blank"
                         >
                             LinkedIn <FaLinkedin size={30} />
                         </a>
@@ -120,6 +121,7 @@ const Navbar = () => {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href="https://github.com/qasimroy"
+                            target="_blank"
                         >
                             GitHub <FaGithub size={30} />
                         </a>
@@ -128,6 +130,7 @@ const Navbar = () => {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href="mailto:qasimroy5234@gmail.com"
+                            target="_blank"
                         >
                             Mail <HiOutlineMail size={30} />
                         </a>
@@ -136,6 +139,7 @@ const Navbar = () => {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href={Resume}
+                            target="_blank"
                         >
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
