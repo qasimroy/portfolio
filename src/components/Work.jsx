@@ -1,7 +1,7 @@
 import React from "react";
 import Movix from "../assets/projects/movix.png";
 import CaptainTaxi from "../assets/projects/captainTaxi.png";
-import SupraPartners from "../assets/projects/supraPartners.png";
+import BestBaby from "../assets/projects/bestBaby.png";
 import QuickEstimations from "../assets/projects/quickEstimation.png";
 import StockManager from "../assets/projects/stockManager.png";
 import MHMUCSP from "../assets/projects/mhmucsp.png";
@@ -19,12 +19,12 @@ const projects = [
     demo: "https://captain.taxi/",
     code: "https://github.com/qasimroy/captaintaxi.github.io",
   },
-  {
-    title: "Supra Partners Website",
-    img: SupraPartners,
-    demo: "https://supra-partners.vercel.app/",
-    code: "https://github.com/qasimroy/supra-partners",
-  },
+  // {
+  //   title: "Supra Partners Website",
+  //   img: SupraPartners,
+  //   demo: "https://supra-partners.vercel.app/",
+  //   code: "https://github.com/qasimroy/supra-partners",
+  // },
   {
     title: "Quick Estimation LLC Website",
     img: QuickEstimations,
@@ -37,12 +37,17 @@ const projects = [
     demo: "https://stock-management-gilt.vercel.app/",
     code: "https://github.com/qasimroy/stock-management",
   },
-
   {
     title: "Auto Spare Parts Website & Dashboard",
     img: MHMUCSP,
     demo: "https://mhmucsp.com/",
     code: "https://github.com/qasimroy/car-gear-galaxy",
+  },
+  {
+    title: "Best Baby Org Website",
+    img: BestBaby,
+    demo: "https://bestbaby-parenting-hub.vercel.app/",
+    code: "https://github.com/qasimroy/bestbaby-parenting-hub",
   },
 ];
 
